@@ -1,5 +1,5 @@
 # PasswordManager
-A python program to allow user to store usernames and passwords for sites.
+A python program which allows a user to store their login details for accounts/sites.
 
 # Getting Started
 - Create a new Firestore project.
@@ -16,3 +16,9 @@ The following python packages are required
 - termcolor
 - cryptography
 - bcrypt
+
+An installation example would be:
+- Open a command prompt and enter
+```
+py -m pip install firebase_admin
+```
