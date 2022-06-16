@@ -9,6 +9,9 @@ A python program which allows a user to store their login details for accounts/s
   - Click Generate New Private Key, then confirm by clicking Generate Key.
   - Securely store the JSON file containing the key.
 - Open "connection.py" and insert the path to the JSON file on line 11.
+- Run passwordConsole.py to open the program
+
+You could make a shortcut for passwordConsole.py to make the program more accessible.
 
 ## Prerequisites
 The following python packages are required
@@ -16,9 +19,9 @@ The following python packages are required
 - termcolor
 - cryptography
 - bcrypt
+- colorama
 
 An installation example would be:
-- Open a command prompt and enter
 ```
 py -m pip install firebase_admin
 ```
